@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+}
+
+h1, h2 {
+  margin: 0 0 15px;
+}
+
+#cadastro {
+  margin-bottom: 20px;
+}
+
+.campo {
+  width: 320px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  outline: none;
+}
+
+.campo:focus {
+  border-color: #6c6c6c;
+}
+
+.botao {
+  margin-top: 12px;
+  padding: 10px 18px;
+  font-size: 14px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.tabela {
+  border-collapse: collapse;
+  margin-top: 10px;
+  min-width: 320px;
+}
+
+.tabela td {
+  border: 1px solid #d9d9d9;
+  padding: 10px;
+}
